@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "copy:html": "cp index.html dist/index.html",
    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "build:ts": "tsc",
     "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
