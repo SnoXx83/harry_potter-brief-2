@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "copy:html": "cp index.html dist/index.html",
+    "copy:pages": "cp -r src/Pages dist/Pages",
     "copy:assets": "cp -r src/assets dist/assets",
    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "build:ts": "tsc",
