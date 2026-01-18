@@ -9,7 +9,7 @@
    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "build:ts": "tsc",
     "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
-    "build": "npm run build:ts && npm run build:css && npm run copy:html && npm run copy:assets",
+    "build": "npm run build:ts && npm run build:css && npm run copy:html && npm run copy:assets && npm run copy:pages",
     "start": "npm run build && npx serve dist"
   },
   "author": "",
